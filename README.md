@@ -76,7 +76,7 @@ python evaluate.py
 ```
 
 
-Data iterators and utils are in `model/data_utils.py` and the model with training/test procedures is in `model/ner_model.py`
+Data iterators and utils are in `model/data_utils.py` and the model with training/test procedures is in `model/aspect_model.py`
 
 
 ## Training Data
