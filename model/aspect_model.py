@@ -10,7 +10,7 @@ from sklearn.metrics import precision_recall_fscore_support
 
 
 class ASPECTModel(BaseModel):
-    """Specialized class of Model for NER"""
+    """Specialized class of Model for Aspect"""
 
     def __init__(self, config):
         super(ASPECTModel, self).__init__(config)
@@ -396,7 +396,7 @@ class ASPECTModel(BaseModel):
 
 
     def build(self):
-        # NER specific functions
+        # Aspect specific functions
         self.add_placeholders()
         self.add_word_embeddings_op()
         #self.add_logits_op()
