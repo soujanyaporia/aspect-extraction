@@ -3,7 +3,7 @@ import tensorflow as tf
 
 
 class BaseModel(object):
-    """Generic class for general methods that are not specific to NER"""
+    """Generic class for general methods that are not specific to Aspect"""
 
     def __init__(self, config):
         """Defines self.config and self.logger
