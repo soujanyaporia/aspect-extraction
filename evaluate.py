@@ -1,5 +1,5 @@
 from model.data_utils import CoNLLDataset
-from model.ner_model import NERModel
+from model.aspect_model import ASPECTModel
 from model.config import Config
 
 
@@ -37,7 +37,7 @@ def interactive_shell(model):
     """Creates interactive shell to play with model
 
     Args:
-        model: instance of NERModel
+        model: instance of ASPECTModel
 
     """
     model.logger.info("""
@@ -71,7 +71,7 @@ def main():
     config = Config()
 
     # build model
-    model = NERModel(config)
+    model = ASPECTModel(config)
     model.build()
     model.restore_session(config.dir_model)
 
