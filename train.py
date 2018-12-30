@@ -1,5 +1,5 @@
 from model.data_utils import CoNLLDataset
-from model.ner_model import ASPECTModel
+from model.aspect_model import ASPECTModel
 from model.config import Config
 
 
