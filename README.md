@@ -39,7 +39,7 @@ Similar to [Collobert et al.] (http://ronan.collobert.com/pub/matos/2011_nlp_jml
 - obtain logits
 - apply viterbi (CRF) for sequence tagging
 
-A window-CNN model 
+Similar to [Poria et al.](https://www.sciencedirect.com/science/article/pii/S0950705116301721)
 
 - form a window around the word to tag
 - apply CNN on that window
