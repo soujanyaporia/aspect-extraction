@@ -2,6 +2,11 @@
 
 This repo has multiple sequential models for aspect extraction from product reviews.
 
+## Citation
+
+
+Poria, S., Cambria, E. and Gelbukh, A., 2016. Aspect extraction for opinion mining with a deep convolutional neural network. Knowledge-Based Systems, 108, pp.42-49.
+
 ## Task
 
 Given a sentence, the task is to extract aspects. Here is an example
@@ -143,11 +148,6 @@ Partial matching based evaluation
 Laptop 2014 -> F1 - 86.84
 Restaurant 2014 -> F1 - 88.42
 ```
-## Citation
-
-
-Poria, S., Cambria, E. and Gelbukh, A., 2016. Aspect extraction for opinion mining with a deep convolutional neural network. Knowledge-Based Systems, 108, pp.42-49.
-
 
 ## License
 
