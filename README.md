@@ -4,6 +4,7 @@ This repo has multiple sequential models for aspect extraction from product revi
 
 ## Citation
 
+If the code is useful in your research, please cite the following paper:
 
 Poria, S., Cambria, E. and Gelbukh, A., 2016. Aspect extraction for opinion mining with a deep convolutional neural network. Knowledge-Based Systems, 108, pp.42-49.
 
